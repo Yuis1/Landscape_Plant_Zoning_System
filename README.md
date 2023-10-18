@@ -23,6 +23,7 @@
 ## 项目开发
 开发语言：C#，运行环境 IIS7
 开发环境：Visual Web Developer 2008，SQL Server 2005
+其它：由于Github目录下无法存储超过1000个文件，故将 img 目录压缩。使用时，解压 img(unzip me).zip 到项目根目录。
 
 ## 论文全文
 · [游宏凯. 基于Web的全国园林植物区划信息系统的构建. 华中农业大学. 硕士毕业论文. 2009](Papers/基于Web的全国园林植物区划信息系统的构建.pdf)
@@ -50,6 +51,7 @@ System features: Supports internet access; supports comprehensive retrieval of l
 ## Project Development
 Development Language: C#, Operating Environment: IIS7
 Development Environment: Visual Web Developer 2008, SQL Server 2005
+Other: Due to the inability to store more than 1000 files in the Github directory, the img directory was compressed. When using, unzip img (unzip me). zip to the project root directory.
 
 ## Full Thesis
 · [You Hongkai. Construction of a Web-based National landscape plant Zoning Information System. Huazhong Agricultural University. Master's Thesis. 2009](Papers/基于Web的全国园林植物区划信息系统的构建.pdf)
