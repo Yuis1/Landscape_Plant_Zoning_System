@@ -52,4 +52,4 @@ Development Language: C#, Operating Environment: IIS7
 Development Environment: Visual Web Developer 2008, SQL Server 2005
 
 ## Full Thesis
-· [You Hongkai. Construction of a Web-based National landscape plant Zoning Information System. Huazhong Agricultural University. Master's Thesis. 2009](Papers/Construction-of-a-Web-based-National-Garden-Plant-Zoning-Information-System.pdf)
+· [You Hongkai. Construction of a Web-based National landscape plant Zoning Information System. Huazhong Agricultural University. Master's Thesis. 2009](Papers/基于Web的全国园林植物区划信息系统的构建.pdf)
