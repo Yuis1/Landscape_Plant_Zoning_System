@@ -1,0 +1,189 @@
+﻿body
+{   background:#EEEEEE;
+    border-width: 0px;
+    padding: 0px;
+    margin: 0px;
+    width: 100%;
+
+}
+.table_content
+{
+    border-color: #D4D0C8;
+    border-style: solid;
+    border-width: 1px 0px 1px 0px;
+    width: 950px;
+    text-align: left;
+    vertical-align: text-top;
+    table-layout: fixed;
+    border-collapse: collapse;
+    line-height: 150%;
+}
+.table_content td
+{
+    padding: 7px 5px 7px 5px;
+    vertical-align: top;
+}
+.myCBL
+{
+}
+.myCBL td
+{
+    padding: 0px 5px 0px 5px;
+}
+.picShow  /*让图片自适应长宽*/
+{
+/*ie5-6 可用 高宽比按3/4 可惜因为图片切换，会导致后面的图片也沿用该长宽，所以只能在javascript中设置
+    width:expression((width*3/4 >= height) ?"740px":"auto");  
+    height:expression((width*3/4 > height) ?"auto":"555px"); */
+    height:expression("540px");  /*只要宽比高不超过4/3，都可以正常显示，若超过则裁去多出来的横边*/
+
+/*w3c标准 ie5-6不支持*/
+    max-width:720px;
+    max-height:540px;
+    overflow:hidden;   
+}
+
+#all_in_body
+{   background:#FFFFFF;
+    border-width: 1px;
+    margin: 0 auto;
+    width: 952px;
+    position: static;
+    text-align: center;
+    overflow: hidden;
+}
+#header {
+    height: 110px;
+    width: 950px;
+
+}
+#main {
+    border-style: dashed;
+    border-width: 1px 0px 1px 0px;
+    border-color: #D5D5D5;
+    text-align: left;
+    width: 950px;
+    overflow: visible;
+    min-height: 442px; /* ie不兼容，给opera、firefox设置最小高度 */;
+    height: auto !important; /* ie兼容，但是有bug，写在同个{}里前面的属性无论有无!important都会被后面的覆盖。让opera、firefox自动增加高度 */;
+    height: 442px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+#footer {
+    padding: 0px;
+    clear: both; /*底部的Footer须清除浮动，使其保持在最下面*/;
+    height: 60px;
+    width: 950px;
+    font-size: 20px;
+    font-family: 宋体, Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    color: #006600;
+}
+
+#header #logo {
+	position: static;
+	clear: none;
+	float: left;
+}
+
+#header #login
+{
+    text-align: right;
+    width: auto;
+    height: 100%;
+    position: relative;
+    bottom: 0px;
+    right: 0px;
+    top: auto;
+    left: auto;
+}
+#header #welcome
+{
+    width: 300px;
+    float: right;
+    position: static;
+    text-align: right;
+    vertical-align: bottom;
+    clear: none;
+}
+
+#main #search
+{
+    width: 255px;
+    float: left;
+    clear: left;
+    overflow: hidden;
+    padding-left: 5px;
+}
+
+#main #t_resoult
+{
+    width: 690px;
+    float: left;
+    clear: right;
+    overflow: hidden;
+}
+.validate
+        {
+            color: #FF0000;
+        }
+.formview
+    {
+    text-align: left;
+    vertical-align: middle;
+    margin: 0px auto 0px auto;
+    padding: 0px;
+    position: static;
+    width: 100%;
+}
+
+
+.hr {clear: both}
+.center_div
+{
+    text-align: center;
+    margin: 0px auto 0px auto;
+    position: static;
+    width: 720px;
+    overflow:hidden;
+}
+.bold
+{
+    margin: 0px 0px 0px 2px;
+    position: static;
+    font-weight: bold;
+    display: block;
+    float: left;
+    clear: none;
+}
+.italic
+{
+    margin: 0px 0px 0px 18px;
+    position: static;
+    font-style: italic;
+    display: block;
+    float: left;
+    clear: none;
+}
+*
+{
+    padding: 0px;
+    font-family: 宋体, Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    margin-right: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.block
+{
+    display: block;
+}
+.newStyle1
+{
+    margin: 0px;
+}
+img
+{
+    border-width: 0px;
+}
